@@ -1,12 +1,12 @@
 {
-  "name": "download-arcgis-font",
+  "name": "get-arcgis-font",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:HoPGoldy/download-arcgis-font.git",
+  "repository": "git@github.com:HoPGoldy/get-arcgis-font.git",
   "author": "hopgoldy <hpgless@outlook.com>",
   "license": "MIT",
   "bin": {
-    "download-arcgis-font": "dist/index.js"
+    "get-arcgis-font": "dist/index.js"
   },
   "scripts": {
     "dev": "tsnd --respawn ./src/index.ts",

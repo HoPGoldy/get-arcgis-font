@@ -1,7 +1,7 @@
-# download-arcgis-font
+# get-arcgis-font
 
-![](https://img.shields.io/npm/v/download-arcgis-font)
-![](https://img.shields.io/github/languages/code-size/hopgoldy/download-arcgis-font)
+![](https://img.shields.io/npm/v/get-arcgis-font)
+![](https://img.shields.io/github/languages/code-size/hopgoldy/get-arcgis-font)
 
 将 arcgis-font 提供的在线字体文件下载至本地的工具。
 
@@ -12,7 +12,7 @@ arcgis js 默认会从 arcgis 在线服务获取字体文件，但由于网络�
 需求：`node 12+`
 
 ```shell
-npm install -g download-arcgis-font
+npm install -g get-arcgis-font
 ```
 
 ## 如何使用
@@ -32,16 +32,16 @@ npm install -g download-arcgis-font
 找一个空文件夹，并执行如下命令：
 
 ```bash
-download-arcgis-font 字体名称
-# 例如 download-arcgis-font arial-unicode-ms-bold
-# 或者 download-arcgis-font https://static.arcgis.com/fonts/arial-unicode-ms-bold
+get-arcgis-font 字体名称
+# 例如 get-arcgis-font arial-unicode-ms-bold
+# 或者 get-arcgis-font https://static.arcgis.com/fonts/arial-unicode-ms-bold
 ```
 
 回车后工具将会打印如下输出：
 
 ```
 downloading font source 256
-download complate, save to D:\download-arcgis-font\result\arial-unicode-ms-bold
+download complate, save to D:\get-arcgis-font\result\arial-unicode-ms-bold
 ```
 
 然后你就可以在日志最后一行的文件夹中找到下载好的字体文件夹了，目录如下：
