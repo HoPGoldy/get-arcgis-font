@@ -1,0 +1,30 @@
+{
+  "name": "download-arcgis-font",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HoPGoldy/download-arcgis-font.git",
+  "author": "hopgoldy <hpgless@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "download-arcgis-font": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsnd --respawn ./src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/css-tree": "^1.0.7",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.0.3",
+    "@types/node-fetch": "^2.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "commander": "^9.3.0",
+    "fs-extra": "^10.1.0",
+    "node-fetch": "2"
+  }
+}
